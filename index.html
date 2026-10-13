@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> HUD HDX Issues</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> HUD HDX Issues </title>
 
   <style>
     body {
@@ -16,6 +17,13 @@
       color: white;
       padding: 20px;
     }
+
+    nav {
+      display: flex; 
+      gap: 30px; 
+      flex-wrap: wrap; 
+    }
+
 
     nav a {
       color: white;
@@ -36,7 +44,8 @@
 
 <header>
   <h1>HUD HDX Issues</h1>
-  <nav>
+  <nav aria-label="Main navigation">
+    <a href="index.html" aria-current="page">| LSA Issues |</a>
     <a href="index.html">| HIC/PIT |</a>
     <a href="summary_reports.html">| Summary Reports |</a>
   </nav>
@@ -50,12 +59,12 @@
 </style>
   
 <main>
-  <h2>HIC/PIT Issues</h2>
-  The HIC and PIT modules are not currently open for submissions. When the submission period is open, we use this space to provide general information about known issues with the HIC and PIT modules in the <a href="https://hudhdx2.info/home">HDX</a>. Please check back regularly to remain up to date on the status of all bugs and flag issues we are actively addressing.
+  <h2>LSA Issues</h2>
+  The LSA module is not currently open for submissions. When the submission period is open, we use this space to provide general information about known issues with the HIC and PIT modules in the <a href="https://hudhdx2.info/home">HDX</a>. Please check back regularly to remain up to date on the status of all bugs and flag issues we are actively addressing.
 
   <h2>Troubleshooting</h2>
 <p>
-If you notice some aspect of the HIC or PIT modules are not working as expected, we recommend the following steps:
+If you notice some aspect of the LSA module is not working as expected, we recommend the following steps:
 </p>
 
 <ul>
@@ -73,28 +82,10 @@ If you notice some aspect of the HIC or PIT modules are not working as expected,
 <h2>Available Guidance</h2>
 <ul>
   <li>
-    The 2026 Data Submission Guide can be viewed <a href="https://files.hudexchange.info/resources/documents/HIC-and-PIT-Count-Data-Submission-Guidance.pdf" target="_blank">here</a>.
+    The LSA Submission Guide can be viewed <a href="https://files.hudexchange.info/resources/documents/An-Introductory-Guide-to-Submitting-LSA-Data-for-the-AHAR.pdf" target="_blank">here</a>.
   </li>
 
-  <li>
-    <b>Saving HIC data changes:</b> In the HIC module, on the Organizations/Projects/Project Funding/Inventories View pages, data is displayed in a table format. When making edits in these table views, please note there is an additional step needed in order to save your data changes.
-    <ol>
-      <li>
-        Hover over the data you’d like to edit to bring up a pencil icon which you should click.
-      </li>
-        <img src="images/SavingTip1.png" alt="Pencil Icon">
-      <li>
-      Edit the data.
-      </li>
-      <li>
-      Click the checkmark to the right of the data.
-      </li>
-        <img src="images/SavingTip2.png" alt="Checkmark Icon">
-      <li>
-      When done making edits to one or more cells, click the green “Save Records” button at the top right of the table to save all of those edits.
-      </li>
-        <img src="images/SavingTip3.png" alt="Save Button">
-    </ol>
+      </ol>
   </li>
 </ul>
 
@@ -111,7 +102,6 @@ If you notice some aspect of the HIC or PIT modules are not working as expected,
     width="100%"
     height="550"></iframe>
   <p>
-    This site was migrated from Weebly to GitHub Pages.
   </p>
 </main>
 
